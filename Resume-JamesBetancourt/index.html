@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>JAMES</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">RESUME</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">HOME</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Chicago.png" alt="">
+            </div>
+            <h1>James Betancourt</h1>
+            <h2>Electronic Engineer - IT Specialist</h2>
+
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/james-betancourt-a5272b12a/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:james.92b11@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://wa.me/573508562509" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="img/resume.pdf" download="James_Betancourt_CV.pdf" title="Download CV .PDF"><i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>SUMMARY</h2>
+            <p>“Dedicated IT and electronics professional with a master's degree in project management, telecommunications, and electronic systems. Skilled in integrating and optimizing IT environments through advanced technologies such as Active Directory, SCCM, JAMF PRO, and VPNs, combined with extensive experience in network management and cybersecurity. Experienced in leading large-scale projects, building teams, and deploying efficient systems to achieve organizational goals. Passionate about continuous learning, currently pursuing Google IT Support certification to further enhance problem solving and strategic planning capabilities. A results-driven team player, committed to delivering excellence and fostering growth in dynamic environments.”</p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Professional Profile</h3>
+                    <ul>
+                        <li>
+                            <strong>Industry Knowledge</strong>
+                            IT Infrastructure | Network Management | System Administration
+                        </li>
+                        <li>
+                            <strong>Core Competencies</strong>
+                            Problem Solving | Technical Support | Project Management
+                        </li>
+                        <li>
+                            <strong>Languages</strong>
+                            English (Professional) | Spanish (Native)
+                        </li>
+                        <li>
+                            <strong>Soft Skills</strong>
+                            Leadership | Team Collaboration | Customer Service
+                        </li>
+                        <li>
+                            <strong>Systems</strong>
+                            Windows | Linux | MacOS
+                        </li>
+                        <li>
+                            <strong>Networks</strong>
+                            LAN/WAN | TCP/IP | VPN
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <!-- 1. Trading -->
+                        <div class="interes">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <a href="https://app.hapi.trade/rewards?code=JAMBET1" target="_blank">
+                                <span>TRADING</span>
+                            </a>
+                        </div>
+                        <!-- 2. GitHub -->
+                        <div class="interes">
+                            <i class="fa-brands fa-github"></i>
+                            <a href="https://github.com/JamesBetancourt1992" target="_blank">
+                                <span>GITHUB</span>
+                            </a>
+                        </div>
+                        <!-- 3. StackOverflow -->
+                        <div class="interes">
+                            <i class="fa-brands fa-stack-overflow"></i>
+                            <a href="https://stackoverflow.com/users/18787277/james-betancourt?tab=profile" target="_blank">
+                                <span>STACK OVERFLOW</span>
+                            </a>
+                        </div>
+                        <!-- 4. Twitter -->
+                        <div class="interes">
+                            <i class="fa-brands fa-twitter"></i>
+                            <a href="https://x.com/betancourth1212" target="_blank">
+                                <span>TWITTER</span>
+                            </a>
+                        </div>
+                        <!-- 5. YouTube -->
+                        <div class="interes">
+                            <i class="fa-brands fa-youtube"></i>
+                            <a href="https://www.youtube.com/@jamesbetancourth3083/videos" target="_blank">
+                                <span>YOUTUBE</span>
+                            </a>
+                        </div>
+                        <!-- 6. Spotify -->
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <a href="https://open.spotify.com/user/k96w7hgqeh2fveuorqxuc90sd/playlists" target="_blank">
+                                <span>MUSICA</span>
+                            </a>
+                        </div>
+                        <!-- 7. Facebook -->
+                        <div class="interes">
+                            <i class="fa-brands fa-facebook"></i>
+                            <a href="https://www.facebook.com/james.betancourth" target="_blank">
+                                <span>FACEBOOK</span>
+                            </a>
+                        </div>
+                        <!-- 8. Instagram -->
+                        <div class="interes">
+                            <i class="fa-brands fa-instagram"></i>
+                            <a href="https://www.instagram.com/jamesbetancourth/" target="_blank">
+                                <span>INSTAGRAM</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+           
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education</h3>
+                    <div class="item izq">
+                        <h4>Google IT Support</h4>
+                        <span class="casa">Google Coursera</span>
+                        <span class="fecha">Currently Studying</span>
+                        <p>IT Support: Knowledge in networks, hardware, software and evolving technical support through the ongoing Google IT Support program.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Master's degree, Project Management</h4>
+                        <span class="casa">Corporacion Universitaria UniMinuto</span>
+                        <span class="fecha">2021</span>
+                        <p>Project Management: Experience backed by a Master's Degree in Project Management, with skills in planning, execution and control of technological initiatives.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Electronic Engineering</h4>
+                        <span class="casa">University Nacional Abierta y a Distancia</span>
+                        <span class="fecha">2019</span>
+                        <p>Electronic Engineering: Solid training as an Electronic Engineer, with knowledge in design, analysis and resolution of complex technical problems.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Industrial Electrical Technologist</h4>
+                        <span class="casa">Instituto Colombiano de Formación Técnica (SENA)</span>
+                        <span class="fecha">2012</span>
+                        <p>Industrial and Electrical Technology: Specialist in industrial electrical systems, certified as an Industrial Electrical Technologist .</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Work Experience</h3>
+                    <div class="item der">
+                        <h4>Sr. Assoc-Help Desk</h4>
+                        <span class="casa">SUTHERLAND GLOBAL</span>
+                        <span class="fecha">December 2023 - Currently</span>
+                        <p>• Integration, implementation and adoption of new technologies to optimize the performance and efficiency of IT environments. <br>
+                        • Administration of re-imagined machines using AD, GPO's, SCCM, JAMF PRO, VPN's, Scripts, among others.<br>
+                        • Network and server management.<br>
+                        • Technical troubleshooting.<br>
+                        • Information security.<br>
+                        • Auditing massive deployments for campaigns.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Project Manager</h4>
+                        <span class="casa">BTP METERS AND ACCESSORIES</span>
+                        <span class="fecha">December 2022 - July 2023</span>
+                        <p>• Oversee large projects of 4 cities provided services for up to 6,000 households.<br>
+                        • Analyzed Architectural blueprints, specifications, and field reports.<br>
+                        • Developed, executed, and maintained strategic plans with field teams.<br>
+                        • Verified data processing and prepared financial/technical reports.<br>
+                        • Optimized inventory control procedures.<br>
+                        • Deployed automation programs and applications.<br>
+                        • Conducted field team training on applications and electronic components.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Technical Lead</h4>
+                        <span class="casa">WODEN S.A.S</span>
+                        <span class="fecha">March 2020 - December 2022</span>
+                        <p>• Developed key processes for restoring high-value electronic telecommunications equipment.<br>
+                        • Performed preventive and corrective maintenance on analog/digital data transmission equipment.<br>
+                        • Implemented scheduling improvements to enhance production goals.<br>
+                        • Coordinated and trained 15+ team members across multiple departments.<br>
+                        • Provided cross-departmental support and leadership.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p0.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Google IT Support</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p1.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            
+            <!-- Professional Certifications -->
+            <div class="skill-category">
+                <h3><i class="fa-solid fa-certificate"></i> Professional Certifications</h3>
+                <div class="certification-grid">
+                    <!-- Google Certifications -->
+                    <div class="cert-group">
+                        <h4>Google IT Certifications</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> The Bits and Bytes of Computer Networking (2024)</li>
+                            <li><i class="fa-solid fa-check"></i> Technical Support Fundamentals (2024)</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Technical Certifications -->
+                    <div class="cert-group">
+                        <h4>Technical & Development</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-code"></i> Introduction to Java SE (2022)</li>
+                            <li><i class="fa-solid fa-business-time"></i> Business Models (2022)</li>
+                            <li><i class="fa-solid fa-drafting-compass"></i> Modelling 3D with Catia v5 (2012)</li>
+                            <li><i class="fa-solid fa-pencil-ruler"></i> AutoCAD 2D Drawing (2011)</li>
+                        </ul>
+                    </div>
+    
+                    <!-- Professional Development -->
+                    <div class="cert-group">
+                        <h4>Professional Skills</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-comments"></i> English Communications (2013)</li>
+                            <li><i class="fa-solid fa-handshake"></i> Basic Cooperativeness (2014)</li>
+                            <li><i class="fa-solid fa-users"></i> Human Relations (2012)</li>
+                            <li><i class="fa-solid fa-balance-scale"></i> Conflict Resolution (2012)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Technical Skills -->
+            <div class="skill-category">
+                <h3><i class="fa-solid fa-laptop-code"></i> Technical Expertise</h3>
+                <div class="tech-grid">
+                    <!-- Operating Systems -->
+                    <div class="tech-group">
+                        <h4><i class="fa-solid fa-desktop"></i> Operating Systems</h4>
+                        <ul>
+                            <li><i class="fa-brands fa-apple"></i> MacOS</li>
+                            <li><i class="fa-brands fa-windows"></i> Windows</li>
+                            <li><i class="fa-brands fa-linux"></i> Kali Linux</li>
+                        </ul>
+                    </div>
+    
+                    <!-- Enterprise Tools -->
+                    <div class="tech-group">
+                        <h4><i class="fa-solid fa-network-wired"></i> Enterprise Solutions</h4>
+                        <ul>
+                            <li>Active Directory & Group Policy</li>
+                            <li>SCCM & JAMF PRO</li>
+                            <li>DHCP & Web Filters</li>
+                            <li>Sentinel One & AWS</li>
+                        </ul>
+                    </div>
+    
+                    <!-- Development Tools -->
+                    <div class="tech-group">
+                        <h4><i class="fa-solid fa-code"></i> Development</h4>
+                        <ul>
+                            <li>JavaScript, HTML, CSS3</li>
+                            <li>Python, Java, C++, C#</li>
+                            <li>Git & GitHub</li>
+                            <li>Visual Studio Code</li>
+                        </ul>
+                    </div>
+    
+                    <!-- Productivity Suites -->
+                    <div class="tech-group">
+                        <h4><i class="fa-solid fa-file-alt"></i> Productivity</h4>
+                        <ul>
+                            <li>Microsoft Office Suite</li>
+                            <li>iWork Suite</li>
+                            <li>Virtual Box</li>
+                            <li>Cisco Packet Tracer</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Volunteer Work -->
+            <div class="skill-category">
+                <h3><i class="fa-solid fa-heart"></i> Volunteer Work</h3>
+                <div class="volunteer-grid">
+                    <div class="volunteer-item">
+                        <i class="fa-solid fa-swimming-pool"></i>
+                        <h4>Lifeguard & Swimming Instructor</h4>
+                        <p>Comfatolima Sport Club</p>
+                        <span>Teaching swimming to low-income children</span>
+                    </div>
+                    <div class="volunteer-item">
+                        <i class="fa-solid fa-hand-holding-heart"></i>
+                        <h4>Senior Care Volunteer</h4>
+                        <p>Jardín de los Abuelos Residential Community</p>
+                        <span>Supporting elderly care and community activities</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
